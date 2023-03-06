@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fbddb7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-image: url("../assets/img/fundoN.png");
+  background-repeat: no-repeat;
+  background-position: bottom 0px right 0px;
+  background-color: #435442;
+  height: 700px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 41px;
+}
+.container-form {
+  padding: 50px 43px 0px;
+}
+
+/* LOGO */
+
+.logo {
+  margin-bottom: 110px;
+  width: 100%;
+  height: auto;
+}
+p {
+  font-size: 20px;
+  color: #f2f2f2;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+/* FORMULÁRIO */
+
+form {
+  color: #ffffff;
+  padding-top: 5px;
+}
+.input-container {
+  width: 100%;
+}
+input {
+  border-radius: 8px;
+  height: 40px;
+  margin-bottom: 16px;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+}
+input:focus-visible {
+  border: 2px solid #b25640;
+  outline: none;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #b25640;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  filter: brightness(1.1);
+}
+
+/* FOOTER */
+
+footer {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 16px;
+  padding: 0px 10px;
+  margin-top: auto;
+}
+/* maximo tamanho da tela */
+@media (max-width: 375px) {
+  .container-form {
+    padding: 50px 20px 0px;
+  }
+}
